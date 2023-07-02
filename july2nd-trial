@@ -36,10 +36,9 @@
     <div id="countdown">Countdown: 00 days 00:00:00</div>
     <div id="message">I Love You Rylee</div>
     <div id="hearts">&hearts; &hearts; &hearts;</div>
-    <video id="video" style="display: none;" width="640" height="360" controls>
-        <source src="https://youtu.be/A0FlhhS-bbM" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/A0FlhhS-bbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
     <script>
         // Set the target date for the countdown (July 3, 2023)
